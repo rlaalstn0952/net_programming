@@ -23,7 +23,7 @@ while True:
     if(mode =='send'):
         message = ' '.join(data)
         box[num].append(message)
-        resp="OK"
+        resp="OK."
         
 
     if(mode =='receive'):

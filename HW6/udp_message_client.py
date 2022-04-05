@@ -13,4 +13,4 @@ while True:
         
     sock.sendto(msg.encode(), ('localhost', port))
     data , addr = sock.recvfrom(BUFFSIZE)
-    print('<-', data.decode())
+    print('<- ', data.decode())
